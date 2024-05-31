@@ -83,7 +83,9 @@
 
 .lottie-container p{
   padding-top: 5px;
+
 }
+
 
 .lottie-container > div {
   width: 100%;
@@ -112,6 +114,13 @@
   width: 90%;
   margin: 0 auto;
   padding: 8em 6em;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    display: flex;
+  }
 }
 
 .cta-1{
